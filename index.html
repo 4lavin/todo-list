@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="asset/fonts.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="application">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-container">
+                        <form id="form" class="form-group">
+                            <div class="input-group">
+                                <input type="text" id="task_name" placeholder="">
+                                <label>Task Name</label>
+                                <input type="hidden" id="save-index">
+                                <div id="msg"></div>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="description" cols="30" rows="10" placeholder=""></textarea>
+                                <label>Description</label>
+                            </div>
+                            <div class="btn">
+                                <button id="add-btn">Add</button>
+                                <button type="submit" id="save-btn">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div id="empty-task"></div>
+                    <hr>
+                    <br>
+                    <div id="deleteAll"></div>
+                    <br>
+                    <div id="task-container">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
