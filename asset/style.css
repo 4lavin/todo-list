@@ -169,7 +169,7 @@ body {
 
 .col-2 {
     flex-basis: 50%;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .task-container {
@@ -222,5 +222,7 @@ body {
     .form-group {
         width: 100%;
     }
-    
+    .col-2 {
+        flex-basis: 100%;
+    }
 }
